@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add User</title>
+  </head>
+  <body>
+    <form method="POST" action="/userData">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" />
+      <label for="phone">Phone Number:</label>
+      <input id="phone" name="phone" type="number" />
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" />
+      <button type="submit">Submit</button>
+    </form>
+    <form method="GET" action="/Users">
+      <button type="submit">Show users</button>
+    </form>
+  </body>
+</html>
